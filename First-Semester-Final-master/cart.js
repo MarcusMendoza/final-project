@@ -11,5 +11,8 @@ this.itemQuantity=[];
 addItem(i,q)
 this.itemlist.unshiift(i);
 this.itemQuantity.unshift(q);
+totalCart()
+var total=0
+var total= var total + this.itemList[i].price*this.itemQuantity[q];
 
 }
